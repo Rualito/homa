@@ -1,0 +1,52 @@
+
+body {
+    margin: 0;
+}
+
+#toolbar > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  flex-direction: row;
+}
+
+#toolbar li {
+    
+    width: 100%; /**/
+}  /**/
+
+#toolbar button {
+    background-color: transparent;
+    padding: 0px 30px 0px 30px;
+    font-size: x-large;
+    font-weight: bold;
+    border-style: hidden;
+    width: 100%;
+    color: #ddd;
+    /*display: flex;
+    flex-flow: row;*/
+    margin: 10px;   
+}
+
+#toolbar .text-button:hover{
+    background-color: #444;
+}
+
+#settings-button:hover{
+    background-color: transparent;
+    color: #fff;
+}
+
+li > #settings-button {
+    color: #bbb;
+    border-style: hidden;
+    background-color: transparent;
+    font-size: 60px;
+    padding: 0px 30px 0px 30px;
+    margin: 10px; 
+}
